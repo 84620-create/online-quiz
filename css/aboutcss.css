@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior:smooth;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.logo img{
+
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.X{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(58, 52, 52);
+    color: white;
+}
+
+.Y{
+    width: 70%;
+    display: flex;
+
+}
+.Y li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.Y li a{
+    color:blue;
+    font-size: 20px;
+    font-family: 'Ubuntu' , sans-serif;
+
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('https://www.wallpapertip.com/wmimgs/122-1221570_hd-backgrounds-education-education-wallpapers-hd-page-educational.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:darken;
+}
+.div3 h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.myDiv {
+    margin: auto;
+    width: 20%;
+    height: 100px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    border: 2px solid black ;
+    padding: 50px 0;
+    background-color: lightblue;    
+    text-align: center;
+}
+.a{
+    margin-top: 35px;
+    font-size: 30px;
+    font-family:sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.a:hover{
+    color: rgb(255, 0, 0);
+}
+
+
+.text-Footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(58, 52, 52);
+    color: white;
+}
+.dropdown-item{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.dropdown-item:hover{
+    color: brown;
+}
+
+@media only screen and (max-width: 1140px){
+	.Y{
+        flex-direction: column;
+    }
+    .X{
+        flex-direction:column ;
+        height: 458px;
+        transition: all 0.5s ease-out;
+    }
+    .a{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sytleindex.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/styleregistration.css">
+    <link rel="shortcut icon" href="Images/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>registration</title>
+</head>
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Guess_Quiz_Logo.png" alt="logo"></div>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="aboutservices.html">About Courses</a></li>
+            <li> <a href="#Services">Services</a></li>
+            <li> <a href="contact.html">Contact Us</a></li>
+            <li> <a href="login.html">Login</a></li>
+            <li> <a href="registration.html">Registrstion</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+           <input type="text" name="Search" id="Search">
+           <button class="btn btn-sm" style="width:80px">Search</button>
+       </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <form class="box" action="login.html" method="POST">
+        
+        <h1>Registrstion</h1>
+        <div class="Registration-page">
+            <div class="name">
+    
+                <input type="text" placeholder="First Name" name="" value="" required>
+            </div>
+            <div class="name">
+                <input type="text" placeholder="Middle Name" name="" value="" required>
+            </div>
+            <div class="name">
+                <input type="text" placeholder="Last Name" name="" value="" required>
+            </div>
+            <div class="name">
+                <input type="number" placeholder="Age" name="" value="" required>
+            </div>
+            <div class="name">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" placeholder="Username" name="" value="" required>
+            </div>
+            <div class="name">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <input type="email" placeholder="Email" name="" value="" required>
+            </div>
+            <div class="name">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <input type="Password" placeholder="Password" name="" value="" required>
+            </div>
+            <div class="name">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <input type="Password" placeholder=" Confirm Password" name="" value="" required>
+            </div>
+            <button id="btn" class="para">Login</button>
+        </div>
+    </form>
+    <script src="js/resp.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>
+         $(document).ready(function(){
+            $('#btn').click(function(){
+                document.location='login.html';
+                
+            });
+
+        });
+    </script>
+
+</body>
+</html>

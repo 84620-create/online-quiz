@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sytleindex.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/sytlelogin.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Guess_Quiz_Logo.png" alt="logo"></div>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="aboutservices.html">About Courses</a></li>
+            <li> <a href="#Services">Services</a></li>
+            <li> <a href="contact.html">Contact Us</a></li>
+            <li> <a href="login.html">Login</a></li>
+            <li> <a href="registration.html">Registrstion</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="Search" id="Search">
+            <button class="btn btn-sm" >Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <form class="box" action="login.html" method="POST">
+        <h1>Login</h1>
+        <input class="form-input" type="text" name="name" id="name" placeholder="username">
+        <input class="form-input" type="password" name="password" id="password" placeholder="password">
+        <input id="btn" value="Login">
+    </form>
+    <script src="js/resp.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>
+         $(document).ready(function(){
+            $('#btn').click(function(){
+                document.location='index.html';
+                
+            });
+
+        });
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .nav-list li{
+        padding: 10px 20px;
+    }
+    .navbar{
+        flex-direction:column ;
+        height: 458px;
+        transition: all 0.5s ease-out;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #Search{
+        width: 100%;
+    }
+    .burger{
+    display: block;
+
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        visibility: hidden;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: left;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paras{
+        padding: 0px;
+    }
+    .thumbnail img{
+        width: 200px;
+        border: 2px solid black;
+        border-radius: 26px;
+        margin-top: 20px;
+    }
+    .background{
+        background: rgba(0, 0, 0, 0.7) url('https://www.wallpapertip.com/wmimgs/122-1221570_hd-backgrounds-education-education-wallpapers-hd-page-educational.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode:darken;
+    }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/sytleindex.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <title>Quizes</title>
+</head>
+<body>
+     <nav class="navbar background h-nav-resp">
+         <ul class="nav-list v-class-resp">
+             <div class="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Guess_Quiz_Logo.png" alt="logo"></div>
+             <li> <a href="index.html">Home</a></li>
+             <li> <a href="aboutservices.html">About Courses</a></li>
+             <li> <a href="#Services">Services</a></li>
+             <li> <a href="contact.html">Contact Us</a></li>
+             <li> <a href="login.html">Login</a></li>
+             <li> <a href="registration.html">Registrstion</a></li>
+         </ul>
+         <div class="rightNav v-class-resp">
+            <input type="text" name="Search" id="Search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+         <div class="burger">
+             <div class="line"></div>
+             <div class="line"></div>
+             <div class="line"></div>
+         </div>
+     </nav>
+
+     <section class="slider background firstSection" id="home">
+         <div class="box-main">
+             <div class="firstHalf">
+                 <p class="text-big">The Future of Education is here</p>
+                 <p class="text-small">in this world 7 billion pepole we need to 
+                     educate all of them.This is the future of the educated
+                      world and we are proud to say that </p>
+                      <div class="buttons">
+                          <button class="btn"><a href="https://en.wikipedia.org/wiki/Futures_of_Education" style="color: white;"> Read </a></button>
+                          <button class="btn"><a href="https://www.youtube.com/" style="color: white;">Watch Video</a></button>
+                      </div>
+             </div>
+             <div class="secondHalf">
+                 <img src="data:image/jpeg;base64,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" alt="Laptop Image">
+             </div>
+         </div>
+
+
+     </section>
+
+     <section class="section" id="About">
+         <div class="paras" id="About">
+         <p class="sectionTag text-big">Transforming Education In India</p>
+         <p class="sectionSubTag text-small">A quiz is a form of game or mind sport in which players attempt to answer questions correctly.
+             It is a game to test knowledge about a certain subject. In some countries, a quiz is also a brief assessment used in education 
+             and similar fields to measure growth in knowledge, abilities, and/or skills.
+            </p>
+        </div>
+            <div class="thumbnail">
+                <img src="https://source.unsplash.com/900x900/?coding,apple" alt="Laptop Image" class="imgFluid">
+            </div>
+     </section>
+
+     <section class="section section-left" id="Services">
+        <div class="paras" id="Services">
+        <p class="sectionTag text-big">Lets Grow Together</p>
+        <p class="sectionSubTag text-small">Quizzes may be held on a variety of subjects (general knowledge or 'pot luck' 
+            (which could be anything)) or subject-specific. The format of the quiz can also vary. Popularly known competition quizzes include
+            see Quizzing in India, for a discussion on the specific evolution of the quizzing culture in India
+           </p>
+       </div>
+           <div class="thumbnail">
+               <img src="https://source.unsplash.com/900x900/?nature,flowers" alt="Laptop Image" class="imgFluid">
+           </div>
+    </section>
+
+    <section class="section">
+        <div class="paras">
+        <p class="sectionTag text-big">In Education</p>
+        <p class="sectionSubTag text-small">In an educational context, a quiz is usually a form of a student assessment, 
+            but often has fewer questions of less difficulty and requires less time for completion than a test.
+             This use is typically found in the United States, Canada, the Philippines, and some colleges in India. For instance, 
+             in a mathematics classroom, a quiz may check comprehension of a type of mathematical exercise.
+             Some instructors schedule a daily or weekly quiz ranging from five to thirty relatively easy questions
+             for the purpose of having the students review their previous lessons before attending the next class. A "pop quiz" is a quiz that
+             students are given no time to prepare for; they are simply surprised with it in class.
+           </p>
+       </div>
+           <div class="thumbnail">
+               <img src="https://source.unsplash.com/900x900/?javascript,apple" alt="Laptop Image" class="imgFluid">
+           </div>
+    </section>
+  
+    <section class="contact" id="Contact">
+
+     <h1 class="text-center">Contact Us</h1>
+
+     <div class="form">
+         <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name">
+         <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone Number">
+         <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your Email">
+         <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
+         <button class="btn btn-sm btn-dark">Submit</button>
+     </div>   
+
+    </section>
+    <footer>
+        <p class="text-Footer">
+        Copyright &copy; 2027 - www.Quizes.com - All rights reserved
+    </p>
+    </footer>
+    <!-- <script src="js/jquery.ripples-min.js"></script> -->
+    <script src="js/main.js"></script>
+    <script src="js/resp.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
