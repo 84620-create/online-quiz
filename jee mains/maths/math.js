@@ -39,7 +39,7 @@ function check() {
     // result.textContent =`Your Score = ${c}/10 😍`;
     result.style.display = "flex";
     result.style.justifyContent = "center";
-    result.style.margin = "400px";
+    result.style.marginTop = "20%";
     result.style.fontSize = "50px";
     result.style.fontFamily = "Inherite";
     

@@ -2,23 +2,25 @@ body{
     margin: 0%;
     padding: 0%;
     font-family: sans-serif;
-    background-color: #5fcfee;
+    background: rgba(0, 0, 0, 0.7) url('https://www.wallpapertip.com/wmimgs/122-1221570_hd-backgrounds-education-education-wallpapers-hd-page-educational.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .box h1{
-    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:normal;
 }
 
 .box{
     width: 300px;
     padding: 40px;
-    border: 2px solid red ;
+    border: 2px solid rgb(99, 5, 5) ;
     border-radius: 5px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
-
-    background-color: #0d0d22;
+    background: transparent;
     text-align: center;
     box-shadow: 0 0 8px #2ec742, 0 0 8px #2e75c7, 0 0 8px #b52ec7;
     
@@ -45,10 +47,10 @@ body{
     border: solid #2ec742;
     width: 280px;
 }
-.box input[type = "text"]:hover,.box input[type = "password"]:hover{
+/* .box input[type = "text"]:hover,.box input[type = "password"]:hover{
     box-shadow: 0 0 10px #2ec742, 0 0 40px #2ec742, 0 0 80px #2ec742;
 
-}
+} */
 
 
 #btn{
@@ -60,7 +62,7 @@ body{
     padding: 14px 10px;
     width: 100px;
     outline: none;
-    border: 2px solid #2ec742;
+    border: 2px solid #070a08;
     transition: 0.25s;
     border-radius: 24px;
     cursor: pointer;
@@ -69,11 +71,15 @@ body{
 
 #btn:hover{
     background-color:  #6dabfc;
-    box-shadow: 0 0 10px #2ec742, 0 0 40px #2ec742, 0 0 80px #2ec742;
+    /* box-shadow: 0 0 10px #2ec742, 0 0 40px #2ec742, 0 0 80px #2ec742; */
     box-decoration-break: slice;
 
 }
 @media only screen and (max-width: 1140px){
+    body{
+        background: rgba(0, 0, 0, 0.7) url('https://www.wallpapertip.com/wmimgs/122-1221570_hd-backgrounds-education-education-wallpapers-hd-page-educational.jpg');
+        background-repeat: no-repeat;
+    }
     .box-resp{
         top: 90%;
         transition: all 0.5s ease-out;
